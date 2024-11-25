@@ -9,3 +9,16 @@
 #navbar {
     position: relative;
 }
+
+#main_video {
+    margin-top: 2%;
+    text-align: center;
+}
+
+#main_video iframe {
+    border-radius: 20px;
+}
+
+.container footer {
+    flex-shrink: 0;
+}
