@@ -18,6 +18,8 @@
 #main_video iframe {
     border-radius: 20px;
     max-width: 100%;
+    max-height: 100%;
+    text-align: center;
 }
 
 .card iframe {
@@ -26,6 +28,12 @@
     text-align: center;
 }
 
-#gidrophob_iol {
-    height: 420px;
+#gidrophob-iol-list {
+    display: flex;
+    justify-content: space-around;
+}
+
+#iol_main_desc img {
+    width: 70%;
+    margin: 0 auto;
 }
